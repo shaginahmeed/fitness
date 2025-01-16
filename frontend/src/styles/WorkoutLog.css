@@ -1,0 +1,120 @@
+.today-workout-log-container {
+  max-width: auto;
+  margin: 0 100px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  grid-column: 1;
+}
+
+.today-workout-title, .workout-title, .workout-sub-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: red;
+}
+
+.workout-log-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin: 0 auto;
+  padding-left: 190px;
+}
+
+@media screen and (max-width: 1032px) {
+  .workout-log-container {
+    display: block;
+    padding-left: 0;
+  }
+
+  .today-workout-log-container, .workout-container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .workout-log-container {
+    grid-template-columns: 1fr 3fr;
+    padding-left: 50px;
+  }
+
+  .today-workout-log-container, .workout-container {
+    padding: 40px;
+    margin: 0 50px;
+  }
+}
+
+.workout-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  grid-column: 1;
+}
+
+.data-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.workout-form > div {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.workout-label {
+  width: 150px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.workout-form input[type='text'],
+.workout-form input[type='email'],
+.workout-form input[type='password'],
+.workout-form input[type='number'],
+.workout-form select,
+.workout-form input[type='date'],
+.workout-form input[type='time'] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.workout-form button {
+  padding: 10px;
+  width: 100%;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.workout-form button:hover {
+  background-color: #0056b3;
+}
+
+.workout-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.workout-th, .workout-td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.workout-th {
+  background-color: #f2f2f2;
+}
