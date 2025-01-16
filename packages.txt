@@ -1,0 +1,19 @@
+BG-LIGHT - #2C2C36
+ROOT - #ffc20e
+
+#fd7e14 - orange
+
+
+packages-
+
+1. npm i react-toastify
+2. npm i swiper
+3. npm install @mui/joy @emotion/react @emotion/styled
+4. npm install @fontsource/inter
+5. npm i react-icons 
+6. npm install @mui/x-charts
+7. npm install @mui/material @emotion/react @emotion/styled
+8. npm i react-horizontal-datepicker
+9. npm install bcrypt body-parser cloudinary cookie-parser cors dotenv express jsonwebtoken mongoose multer nodemailer nodemon request sharp
+10. npm install -g nodemon
+ 

@@ -2,6 +2,9 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Analytics } from "@vercel/analytics/react";
 import Cookies from "js-cookie";
+
+// import "./App.css";
+
 //CSS
 import "./styles/Header.css";
 import "./styles/SignIn.css";
