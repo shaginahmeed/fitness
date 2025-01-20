@@ -51,6 +51,9 @@ function Header({
                         <li>
                           <Link to="/about">About</Link>
                         </li>
+                        <li>
+                          <Link to="/exercise">Exercises</Link>
+                        </li>
                         {/* <li><Link to="/workoutLog">Workout Log</Link></li> */}
                         <li>
                           <Link>Log</Link>

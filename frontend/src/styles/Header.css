@@ -2,3 +2,10 @@ header {
   margin-bottom: 120px;
   /* padding-bottom: 110px; */
 }
+
+#navigation {
+  font-size: 50px; /* Adjust the size as needed */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
