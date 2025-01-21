@@ -3,7 +3,11 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Analytics } from "@vercel/analytics/react";
 import Cookies from "js-cookie";
 
+//import { Route, Routes } from "react-router-dom";
+import { Box } from "@mui/material";
+
 // import "./App.css";
+import "./App.css";
 
 //CSS
 import "./styles/Header.css";
@@ -41,6 +45,9 @@ import Contact from "./components/Contact.js";
 import UserDetails from "./components/UserDetails.js";
 import LogOut from "./components/LogOut.js";
 import WorkoutHistory from "./components/WorkoutHistory.js";
+
+import ExerciseDetail from "./pages/ExerciseDetail";
+import Exercise from "./pages/Home";
 
 function App() {
   const [signUpText, setSignUpText] = useState("Sign Up");
@@ -116,6 +123,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
+            <Route path="/exercise" element={<Exercise />} />
+            <Route path="/exercise/:id" element={<ExerciseDetail />} />
             <Route
               path="/workoutLog"
               element={

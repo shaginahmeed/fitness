@@ -171,7 +171,7 @@ function About() {
                 &times;
               </span>
               <p style={{ color: "black", fontFamily: "impact" }}>
-                Welcome to FitFreak, where fitness meets technology!
+                Welcome to reLife, where fitness meets technology!
               </p>
               <p
                 style={{
@@ -203,7 +203,7 @@ function About() {
         </h1>
         <div className="question">
           <h3>
-            Is FitFreak a free calorie tracker app?
+            Is reLife a free calorie tracker app?
             <span
               className={`arrow ${showAnswers[0] ? "up" : "down"}`}
               onClick={() => toggleAnswer(0)}
@@ -211,13 +211,13 @@ function About() {
           </h3>
           {showAnswers[0] && (
             <p style={{ color: "red" }}>
-              Yes, FitFreak is a free calorie tracker app.
+              Yes, reLife is a free calorie tracker app.
             </p>
           )}
         </div>
         <div className="question">
           <h3>
-            How to track calories with a calorie counter app like FitFreak?
+            How to track calories with a calorie counter app like reLife?
             <span
               className={`arrow ${showAnswers[1] ? "up" : "down"}`}
               onClick={() => toggleAnswer(1)}
@@ -225,9 +225,9 @@ function About() {
           </h3>
           {showAnswers[1] && (
             <p style={{ color: "red" }}>
-              To track calories with FitFreak, you can search for the food you
-              ate in the app's database, enter the portion size, and the app
-              will calculate the calorie and nutrition information for you.
+              To track calories with reLife, you can search for the food you ate
+              in the app's database, enter the portion size, and the app will
+              calculate the calorie and nutrition information for you.
             </p>
           )}
         </div>
@@ -241,14 +241,14 @@ function About() {
           </h3>
           {showAnswers[2] && (
             <p style={{ color: "red" }}>
-              With FitFreak, you can track a variety of nutrition data,
-              including protein, fat, carbohydrates, fiber, sugar, and more.
+              With reLife, you can track a variety of nutrition data, including
+              protein, fat, carbohydrates, fiber, sugar, and more.
             </p>
           )}
         </div>
         <div className="question">
           <h3>
-            Does FitFreak use a BMI calculator or BMR calculator to set goals?
+            Does reLife use a BMI calculator or BMR calculator to set goals?
             <span
               className={`arrow ${showAnswers[3] ? "up" : "down"}`}
               onClick={() => toggleAnswer(3)}
@@ -256,7 +256,7 @@ function About() {
           </h3>
           {showAnswers[3] && (
             <p style={{ color: "red" }}>
-              Yes, FitFreak uses both a BMI calculator and a BMR calculator to
+              Yes, reLife uses both a BMI calculator and a BMR calculator to
               help you set weight loss, maintenance, and gain goals based on
               your current weight, height, age, and gender.
             </p>
@@ -272,7 +272,7 @@ function About() {
           </h3>
           {showAnswers[4] && (
             <p style={{ color: "red" }}>
-              Yes, FitFreak allows you to track your weight, workouts, water
+              Yes, reLife allows you to track your weight, workouts, water
               intake, and even food intake.
             </p>
           )}
