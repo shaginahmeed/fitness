@@ -184,6 +184,7 @@ const NutritionCheckerForm = () => {
           padding: "1.5rem",
           maxWidth: "85%",
           margin: "0 auto",
+          boxShadow: "1px 2px 4px 6px rgba(255, 3, 3, 0.3)",
         }}
       >
         <div

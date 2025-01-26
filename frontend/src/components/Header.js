@@ -83,6 +83,9 @@ function Header({
                             <li>
                               <Link to="/workoutHistory">Workout History</Link>
                             </li>
+                            <li>
+                              <Link to="/updatedietplan">Update Diet Plan</Link>
+                            </li>
                           </ul>
                         </li>
                         <li>

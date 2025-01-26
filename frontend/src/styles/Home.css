@@ -58,6 +58,11 @@
   /* height: 5%; */
 }
 
+.calorie-calculator {
+  width: 100%;
+  margin-top: -80px;
+}
+
 .quotation {
   margin-left: 570px;
   margin-top: -330px;

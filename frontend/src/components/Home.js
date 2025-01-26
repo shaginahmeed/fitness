@@ -4,6 +4,7 @@ import videoSrc from "../assets/video3.mp4";
 
 import NutritionCheckerForm from "./NutritionCheckerForm";
 import Box from "@mui/material/Box";
+import CalorieCalculator from "./CalorieCalculator";
 
 const Home = () => {
   const [showScrollButton, setShowScrollButton] = useState(false);
@@ -61,6 +62,10 @@ const Home = () => {
       )}
       <div className="nutrition-checker">
         <NutritionCheckerForm />
+      </div>
+
+      <div className="calorie-calculator">
+        <CalorieCalculator />
       </div>
     </>
   );

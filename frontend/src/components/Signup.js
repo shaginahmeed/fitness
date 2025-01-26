@@ -725,7 +725,6 @@ function Signup({
     color: "#ff3333",
     marginBottom: "30px",
     fontSize: "3.5rem",
-    fontWeight: "bold",
   };
 
   const inputContainerStyle = {
@@ -736,7 +735,7 @@ function Signup({
     display: "block",
     marginBottom: "8px",
     color: "#ff4444",
-    fontWeight: "600",
+    // fontWeight: "600",
     fontSize: "1.8rem",
   };
 
@@ -758,7 +757,6 @@ function Signup({
     border: "none",
     borderRadius: "8px",
     fontSize: "1.5rem",
-    fontWeight: "bold",
     cursor: "pointer",
     transition: "background-color 0.3s ease",
   };

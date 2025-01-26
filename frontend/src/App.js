@@ -48,6 +48,8 @@ import WorkoutHistory from "./components/WorkoutHistory.js";
 
 import ExerciseDetail from "./pages/ExerciseDetail";
 import Exercise from "./pages/Home";
+import CalorieCalculator from "./components/CalorieCalculator.js";
+import UpdateDietProfile from "./components/UpdateDietProfile.js";
 
 function App() {
   const [signUpText, setSignUpText] = useState("Sign Up");
@@ -227,6 +229,23 @@ function App() {
                   updateSignUpRoute={updateSignUpRoute}
                   signUpRoute={signUpRoute}
                   signInRoute={signInRoute}
+                />
+              }
+            />
+            <Route
+              path="/updatedietplan"
+              element={
+                <UpdateDietProfile
+                // signUpText={signUpText}
+                // updateSignUpText={updateSignUpText}
+                // loggedIn={loggedIn}
+                // setLoggedIn={setLoggedIn}
+                // signInText={signInText}
+                // updateSignInText={updateSignInText}
+                // updateSignInRoute={updateSignInRoute}
+                // updateSignUpRoute={updateSignUpRoute}
+                // signUpRoute={signUpRoute}
+                // signInRoute={signInRoute}
                 />
               }
             />
