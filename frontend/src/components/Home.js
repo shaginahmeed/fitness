@@ -2,6 +2,9 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import videoSrc from "../assets/video3.mp4";
 
+import NutritionCheckerForm from "./NutritionCheckerForm";
+import Box from "@mui/material/Box";
+
 const Home = () => {
   const [showScrollButton, setShowScrollButton] = useState(false);
 
@@ -56,6 +59,9 @@ const Home = () => {
           />
         </button>
       )}
+      <div className="nutrition-checker">
+        <NutritionCheckerForm />
+      </div>
     </>
   );
 };
@@ -98,3 +104,17 @@ const FitnessQuote = () => {
 };
 
 export default Home;
+
+{
+  /* <div className="nutrition-checker">
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <NutritionCheckerForm />
+        </Box>
+      </div> */
+}
