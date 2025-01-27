@@ -12,7 +12,7 @@
 # production
 /build
 
-
+backend/credentials.json
 
 
 npm-debug.log*
