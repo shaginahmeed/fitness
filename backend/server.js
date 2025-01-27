@@ -70,6 +70,9 @@ app.use("/api/foodLogGet", foodLogGetRoutes);
 app.use("/api/workoutLogGet", workoutLogGetRoutes);
 app.use("/api/waterLogGet", waterLogGetRoutes);
 
+const calendarRoutes = require("./routes/calendarRoutes");
+app.use("/api/calendar", calendarRoutes);
+
 app.listen(process.env.PORT || 8000, () => {
   console.log("Server started on port " + (process.env.PORT || 8000));
 });
